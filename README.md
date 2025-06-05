@@ -53,8 +53,8 @@ Step 7 : Return the final state-values V and the optimal policy pi.
 To summarize, policy iteration iteratively improves the policy by alternating between policy evaluation and policy improvement steps until convergence is reached. The algorithm guarantees to find the optimal policy for the given MDP P with a discount factor gamma.
 ```
 ## POLICY IMPROVEMENT FUNCTION
-**Name:** Mohammed Saajid
-**Register Number:** 212223240093
+**Name:** Visalan H
+**Register Number:** 212223240183
 ```
 def policy_improvement(V, P, gamma=1.0):
     Q = np.zeros((len(P), len(P[0])), dtype=np.float64)
